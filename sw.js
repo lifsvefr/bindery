@@ -1,5 +1,5 @@
 /* Myndasögur service worker — offline shelf, careful cache (never caches failures) */
-const CACHE = 'myndasogur-v2';
+const CACHE = 'myndasogur-v3';
 const CORE = ['./', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
